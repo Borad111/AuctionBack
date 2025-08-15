@@ -1,0 +1,35 @@
+  {
+    "compilerOptions": {
+      "target": "ES2020", // ES2020 tak ke modern features
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist", // compiled files
+      "rootDir": "./src", // src folder rakho for clean structure
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+
+      // Production best practices
+      "noImplicitAny": true,        // Har variable ka type dena padega
+      "strictNullChecks": true,     // Null/undefined ka safety
+      "noUnusedLocals": true,       // Unused variables error
+      "noUnusedParameters": true,   // Unused function params error
+      "noImplicitReturns": true,    // Function ka har path return kare
+
+      // Decorator support (agar use karte ho)
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+
+      "declaration": true,
+      "removeComments": true,
+      "noEmitOnError": true,
+      "lib": ["es2020"]
+    },
+    "include": ["src/**/*.ts"],  // saare src ke andar ke .ts files
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "dist"
+    ]
+  }
