@@ -3,9 +3,11 @@ import dotenv from 'dotenv';
 import {Server} from 'socket.io';
 import http from 'http';
 import jwt from 'jsonwebtoken';
+import sequelize from './config/database';
+import env from './config/env';
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+const PORT =env.PORT || 3000;
 
 const server = http.createServer(app);
 
@@ -64,8 +66,25 @@ io.of('/realtime').on('connection', (socket) => {
   });
 });
 
-
-server.listen(PORT, () => {
+const connectWithRetry = async (retries = 5, delay = 5000) => {
+  try {
+    await sequelize.authenticate();
+    console.log('Database connection established successfully.');
+  } catch (error) {
+    if (retries === 0) {
+      console.error('Database connection failed after multiple retries:', error);
+      process.exit(1);
+    }
+    
+    console.log(`Retrying database connection... (${retries} retries left)`);
+    await new Promise(resolve => setTimeout(resolve, delay));
+    await connectWithRetry(retries - 1, delay);
+  }
+};
+(async () => {
+  await connectWithRetry();
+  server.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-});
+  });
+})();
 

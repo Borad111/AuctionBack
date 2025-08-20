@@ -24,9 +24,11 @@
       "declaration": true,
       "removeComments": true,
       "noEmitOnError": true,
+      "resolveJsonModule": true,
+       "types": ["node"],
       "lib": ["es2020"]
     },
-    "include": ["src/**/*.ts"],  // saare src ke andar ke .ts files
+    "include": ["src/**/*.ts", "src/config/config.ts"],  // saare src ke andar ke .ts files
     "exclude": [
       "node_modules",
       "**/*.spec.ts",

@@ -6,10 +6,13 @@ import morgan from 'morgan';
 import rateLimit from 'express-rate-limit';
 import compression from 'compression';
 import hpp from 'hpp';
+import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
+import env from './config/env';
 const app: Application = express();
 
 
+dotenv.config();
 //security middlewares
 app.set('trust proxy', 1); // trust first proxy
 app.use(
@@ -19,7 +22,7 @@ app.use(
         defaultSrc: ["'self'"],
         scriptSrc: ["'self'", "'unsafe-inline'", "cdn.jsdelivr.net"],
         imgSrc: ["'self'", "data:", "https://your-bucket.s3.amazonaws.com"],
-        connectSrc: ["'self'", process.env.FRONTEND_URL || 'http://localhost:3000',"ws:"],
+        connectSrc: ["'self'", env.FRONTEND_URL || 'http://localhost:3000',"ws:"],
       },
     },
   })
@@ -28,8 +31,8 @@ app.use(hpp());
 app.use(cookieParser());
 
 //logging middlewares
-if (process.env.NODE_ENV !== 'test') {
-  app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
+if (env.NODE_ENV !== 'test') {
+  app.use(morgan(env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 }
 
 //body parsing middlewares
@@ -42,7 +45,7 @@ app.use(compression());
 
 //cors and rate limiting
 app.use(cors({
-      origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+      origin: env.FRONTEND_URL || 'http://localhost:3000',
       credentials: true
 }));
 
@@ -77,7 +80,7 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   const status = err.status || 500;
   const message = err.message || 'Internal Server Error';
   
-  if (process.env.NODE_ENV !== 'production') {
+  if (env.NODE_ENV !== 'production') {
     console.error(err);
     return res.status(status).json({
       success: false,
@@ -92,6 +95,9 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     message
   });
 });
+
+
+
 
 export default app;
 
