@@ -9,6 +9,7 @@ import hpp from 'hpp';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import env from './config/env';
+import AuthRouter from './modules/auth/auth.routes';
 const app: Application = express();
 
 
@@ -66,6 +67,7 @@ app.get('/', ( _req,res: Response) => {
     res.send('Hello World!');
 }); 
 
+app.use('/api/v1/auth',AuthRouter);
 
 //404 error handler
 app.use((req: Request, _res: Response, next: NextFunction) => {
@@ -90,7 +92,7 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   }
 
   // Production error response
-  res.status(status).json({
+  return res.status(status).json({
     success: false,
     message
   });

@@ -2,6 +2,7 @@
     "compilerOptions": {
       "target": "ES2020", // ES2020 tak ke modern features
       "module": "commonjs",
+      "types": ["node", "jest"],
       "moduleResolution": "node",
       "outDir": "./dist", // compiled files
       "rootDir": "./src", // src folder rakho for clean structure
@@ -25,7 +26,6 @@
       "removeComments": true,
       "noEmitOnError": true,
       "resolveJsonModule": true,
-       "types": ["node"],
       "lib": ["es2020"]
     },
     "include": ["src/**/*.ts", "src/config/config.ts"],  // saare src ke andar ke .ts files

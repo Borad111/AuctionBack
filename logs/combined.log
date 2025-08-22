@@ -1,0 +1,15 @@
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:22:53.077Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:24:09.856Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:24:17.037Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:27:56.741Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:27:56.754Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:29:49.417Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:29:49.431Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:30:08.588Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 500: User already exists with this email","timestamp":"2025-08-22T10:30:08.601Z"}
+{"error":{},"level":"error","message":"Error 500: User creation failed","timestamp":"2025-08-22T10:36:10.828Z"}
+{"error":{},"level":"error","message":"Error 500: User creation failed","timestamp":"2025-08-22T10:36:10.841Z"}
+{"error":{},"level":"error","message":"Error 500: User creation failed","timestamp":"2025-08-22T10:40:46.236Z"}
+{"error":{},"level":"error","message":"Error 500: User creation failed","timestamp":"2025-08-22T10:40:46.246Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 400: User already exists with this email","timestamp":"2025-08-22T10:42:20.702Z"}
+{"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 400: User already exists with this email","timestamp":"2025-08-22T10:42:20.715Z"}
