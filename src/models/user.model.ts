@@ -1,13 +1,11 @@
 import { DataTypes, Model, Optional } from "sequelize";
 import sequelize from "../config/database";
 import { Role, USER_ROLES } from "../constants/roles";
-import bcrypt from "bcryptjs";
 
 interface UserAttributes {
-  id: string;
+  id: string; // Firebase UID
   name: string;
   email: string;
-  passwordHash: string;
   role: Role;
   emailVerifiedAt?: Date | null;
   createdAt?: Date;
@@ -26,23 +24,20 @@ export class User
   public id!: string;
   public name!: string;
   public email!: string;
-  public passwordHash!: string;
   public role!: Role;
   public emailVerifiedAt?: Date | null;
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
 
-    public async comparePassword(password: string): Promise<boolean> {
-    return bcrypt.compare(password, this.passwordHash);
-  }
+  // 🔥 Password related sab kuch HATA DIYA
 }
 
 User.init(
   {
     id: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
+      type: DataTypes.STRING, // ✅ Firebase UID store karega
       primaryKey: true,
+      allowNull: false,
     },
     name: {
       type: DataTypes.STRING,
@@ -59,16 +54,10 @@ User.init(
         isEmail: true,
       },
     },
-    passwordHash: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        len: [6, 100],
-      },
-    },
+    // 🔥 passwordHash field COMPLETELY REMOVE kar diya
     role: {
       type: DataTypes.ENUM(...USER_ROLES),
-      defaultValue: "BIDDER",
+      defaultValue: "BIDDER", // ✅ Ensure role values match
     },
     emailVerifiedAt: {
       type: DataTypes.DATE,
@@ -80,6 +69,5 @@ User.init(
     tableName: "users",
     modelName: "User",
     timestamps: true,
-    // Remove the hooks since we're handling hashing in the service
   }
 );

@@ -1,6 +1,7 @@
 import { hashPassword, comparePassword } from "../../utils/hashPassword";
 
 describe("hashPassword utility", () => {
+
   it("should hash the password", async () => {
     const plainPassword = "mySecret123";
     const hash = await hashPassword(plainPassword);

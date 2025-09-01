@@ -13,3 +13,11 @@
 {"error":{},"level":"error","message":"Error 500: User creation failed","timestamp":"2025-08-22T10:40:46.246Z"}
 {"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 400: User already exists with this email","timestamp":"2025-08-22T10:42:20.702Z"}
 {"error":{"isOperational":true,"name":"DuplicateError","statusCode":409},"level":"error","message":"Error 400: User already exists with this email","timestamp":"2025-08-22T10:42:20.715Z"}
+{"level":"warn","message":"Validation error: password - Password must be at least 6 characters long","timestamp":"2025-08-25T05:12:53.464Z"}
+{"error":{"isOperational":true,"name":"ValidationError","statusCode":400},"level":"error","message":"Error 400: password - Password must be at least 6 characters long","timestamp":"2025-08-25T05:12:53.467Z"}
+{"level":"warn","message":"Validation error: password - Password must be at least 6 characters long","timestamp":"2025-08-25T05:13:17.152Z"}
+{"error":{"isOperational":true,"name":"ValidationError","statusCode":400},"level":"error","message":"Error 400: password - Password must be at least 6 characters long","timestamp":"2025-08-25T05:13:17.153Z"}
+{"level":"warn","message":"Validation error: role - Invalid option: expected one of \"ADMIN\"|\"BIDDER\"|\"SELLER\"","timestamp":"2025-09-01T06:14:26.522Z"}
+{"error":{"isOperational":true,"name":"ValidationError","statusCode":400},"level":"error","message":"Error 400: role - Invalid option: expected one of \"ADMIN\"|\"BIDDER\"|\"SELLER\"","timestamp":"2025-09-01T06:14:26.527Z"}
+{"level":"warn","message":"Validation error: role - Invalid option: expected one of \"ADMIN\"|\"BIDDER\"|\"SELLER\"","timestamp":"2025-09-01T06:18:37.639Z"}
+{"error":{"isOperational":true,"name":"ValidationError","statusCode":400},"level":"error","message":"Error 400: role - Invalid option: expected one of \"ADMIN\"|\"BIDDER\"|\"SELLER\"","timestamp":"2025-09-01T06:18:37.640Z"}

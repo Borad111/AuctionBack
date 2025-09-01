@@ -7,7 +7,7 @@ import sequelize from './config/database';
 import env from './config/env';
 dotenv.config();
 
-const PORT =env.PORT || 3000;
+const PORT =env.PORT || 5000;
 
 const server = http.createServer(app);
 

@@ -6,5 +6,7 @@ const tsJestTransformCfg = createDefaultPreset().transform;
 module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["**/src/**/*.test.ts"], // sirf .test.ts files run karenge
+  testMatch: ["**/src/**/*.test.ts", "**/src/**/*.spec.ts"], 
+  testPathIgnorePatterns: ["/node_modules/", "/tests/e2e/"], 
+  // sirf .test.ts files run karenge
 };

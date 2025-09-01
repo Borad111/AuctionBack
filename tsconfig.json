@@ -28,7 +28,7 @@
       "resolveJsonModule": true,
       "lib": ["es2020"]
     },
-    "include": ["src/**/*.ts", "src/config/config.ts"],  // saare src ke andar ke .ts files
+    "include": ["src/**/*.ts", "src/config/config.ts","src/types/**/*"],  // saare src ke andar ke .ts files
     "exclude": [
       "node_modules",
       "**/*.spec.ts",
