@@ -1,4 +1,4 @@
-import jwt from "jsonwebtoken";
+import jwt, { JwtPayload } from "jsonwebtoken";
 import env from "../config/env";
 
 // ✅ Properly validate and type environment variables
@@ -17,28 +17,44 @@ const REFRESH_TOKEN_EXPIRY = (env.REFRESH_TOKEN_EXPIRY || "7d") as jwt.SignOptio
 export const JwtService = {
   generateAccessToken: (payload: object): string => {
     return jwt.sign(payload, ACCESS_TOKEN_SECRET, { 
-      expiresIn: ACCESS_TOKEN_EXPIRY
+      expiresIn: ACCESS_TOKEN_EXPIRY,
+      algorithm: "HS256", // ✅ algo explicitly set (default bhi yahi hai, but safe to declare)
     });
   },
 
   generateRefreshToken: (payload: object): string => {
     return jwt.sign(payload, REFRESH_TOKEN_SECRET, { 
-      expiresIn: REFRESH_TOKEN_EXPIRY
+      expiresIn: REFRESH_TOKEN_EXPIRY,
+      algorithm: "HS256",
     });
   },
 
-  verifyAccessToken: (token: string): any => {
+  verifyAccessToken: (token: string): JwtPayload & { id: string; email: string; role: string } => {
     try {
-      return jwt.verify(token, ACCESS_TOKEN_SECRET);
-    } catch (error) {
+      return jwt.verify(token, ACCESS_TOKEN_SECRET) as JwtPayload & {
+        id: string;
+        email: string;
+        role: string;
+      };
+    } catch (error: any) {
+      if (error.name === "TokenExpiredError") {
+        throw new Error("Access token expired");
+      }
       throw new Error("Invalid access token");
     }
   },
 
-  verifyRefreshToken: (token: string): any => {
+  verifyRefreshToken: (token: string): JwtPayload & { id: string; email: string; role: string } => {
     try {
-      return jwt.verify(token, REFRESH_TOKEN_SECRET);
-    } catch (error) {
+      return jwt.verify(token, REFRESH_TOKEN_SECRET) as JwtPayload & {
+        id: string;
+        email: string;
+        role: string;
+      };
+    } catch (error: any) {
+      if (error.name === "TokenExpiredError") {
+        throw new Error("Refresh token expired");
+      }
       throw new Error("Invalid refresh token");
     }
   },

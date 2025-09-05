@@ -1,5 +1,10 @@
 import { Request, Response, NextFunction } from "express";
-import { loginValidate, loginInputDto, registerInputDto, registerValidate } from "./auth.validation";
+import {
+  loginValidate,
+  loginInputDto,
+  registerInputDto,
+  registerValidate,
+} from "./auth.validation";
 import { ValidationError } from "../../utils/app.error";
 import { UtilsService } from "../../utils/utils.service";
 import { AuthService } from "./auth.service";
@@ -7,8 +12,8 @@ import logger from "../../utils/logger";
 import { UserDTO } from "./auth.dto";
 
 export class AuthController {
-  static async register(  
-    req: Request<{},{},registerInputDto>,
+  static async register(
+    req: Request<{}, {}, registerInputDto>,
     res: Response,
     next: NextFunction
   ): Promise<Response | void> {
@@ -22,7 +27,7 @@ export class AuthController {
           res,
           new ValidationError(errorMsg || "Validation failed"),
           400
-        );        
+        );
       }
 
       const user = await AuthService.createUser(body);
@@ -59,9 +64,8 @@ export class AuthController {
       }
 
       // Verify Firebase token + generate JWT
-      const { user, accessToken, refreshToken } = await AuthService.verifyFirebaseToken(
-        body.idToken
-      );
+      const { user, accessToken, refreshToken } =
+        await AuthService.verifyFirebaseToken(body.idToken);
 
       // Set refresh token in httpOnly cookie
       res.cookie("refreshToken", refreshToken, {
@@ -69,7 +73,7 @@ export class AuthController {
         secure: process.env.NODE_ENV === "production",
         sameSite: "strict",
         maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-        path: "/api/auth/refresh-token",
+        path: "/",
       });
 
       return UtilsService.sendSuccess(
@@ -93,13 +97,17 @@ export class AuthController {
   ): Promise<Response | void> {
     try {
       const userId = req.user?.id;
-      
+
       if (!userId) {
-        return UtilsService.sendError(res, new Error("User not authenticated"), 401);
+        return UtilsService.sendError(
+          res,
+          new Error("User not authenticated"),
+          401
+        );
       }
 
       const user = await AuthService.findUserById(userId);
-      
+
       if (!user) {
         return UtilsService.sendError(res, new Error("User not found"), 404);
       }
@@ -122,37 +130,61 @@ export class AuthController {
     next: NextFunction
   ): Promise<Response | void> {
     try {
-      // Get refresh token from httpOnly cookie
+      // 1️⃣ Cookie se refresh token lo
       const refreshToken = req.cookies.refreshToken;
       if (!refreshToken) {
-        return UtilsService.sendError(res, new Error("Refresh token required"), 401);
+        return UtilsService.sendError(
+          res,
+          new Error("Refresh token required"),
+          401
+        );
       }
 
-      // Verify refresh token
+      // 2️⃣ Refresh token verify karo
       let decoded: any;
       try {
         decoded = AuthService.verifyRefreshToken(refreshToken);
       } catch (err) {
-        return UtilsService.sendError(res, new Error("Invalid refresh token"), 401);
+        return UtilsService.sendError(
+          res,
+          new Error("Invalid refresh token"),
+          401
+        );
       }
 
-      // Find user by ID from decoded token
+      // 3️⃣ User fetch karo
       const user = await AuthService.findUserById(decoded.id);
       if (!user) {
         return UtilsService.sendError(res, new Error("User not found"), 404);
       }
 
-      // Generate new access token
-      const newAccessToken = AuthService.generateAccessToken({
+      // 4️⃣ New tokens generate karo (rotation)
+      const tokenPayload = {
         id: user.id,
         email: user.email,
         role: user.role,
+      };
+      const newAccessToken = AuthService.generateAccessToken(tokenPayload);
+      const newRefreshToken = AuthService.generateRefreshToken(tokenPayload);
+
+      // 5️⃣ New refresh token cookie me set karo
+      res.cookie("refreshToken", newRefreshToken, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "strict",
+        maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+        path: "/",
       });
 
-      // Send new access token to frontend
-      return UtilsService.sendSuccess(res, { 
-        accessToken: newAccessToken 
-      }, 200);
+      // 6️⃣ Response bhejo
+      return UtilsService.sendSuccess(
+        res,
+        {
+          accessToken: newAccessToken,
+          // user: UserDTO.toResponse(user),
+        },
+        200
+      );
     } catch (error) {
       next(error);
     }
@@ -164,19 +196,18 @@ export class AuthController {
     next: NextFunction
   ): Promise<Response | void> {
     try {
-      // Clear refresh token cookie
+      // Refresh token cookie clear karo
       res.clearCookie("refreshToken", {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
         sameSite: "strict",
-        path: "/api/auth/refresh-token",
       });
+
+      // (Optional) Agar Redis/DB use karoge to yaha invalidate bhi karna hoga
 
       return UtilsService.sendSuccess(
         res,
-        {
-          message: "Logout successful",
-        },
+        { message: "Logout successful" },
         200
       );
     } catch (error) {
