@@ -25,6 +25,8 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@sentry/node": "^7.120.4",
+    "@sentry/tracing": "^7.120.4",
     "@types/compression": "^1.8.1",
     "@types/cors": "^2.8.19",
     "@types/helmet": "^4.0.0",

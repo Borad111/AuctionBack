@@ -14,6 +14,7 @@ const envSchema = z.object({
   REFRESH_TOKEN_SECRET: z.string().min(1, "REFRESH_TOKEN_SECRET is required"),
   ACCESS_TOKEN_EXPIRY: z.string().default("15m"),
   REFRESH_TOKEN_EXPIRY: z.string().default("7d"),
+  SENTRY_DSN: z.string(),
 });
 
 const env = envSchema.parse(process.env);

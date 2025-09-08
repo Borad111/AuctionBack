@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { Router,Request,Response,NextFunction } from "express";
 import {AuthController} from './auth.controller';
 import { authMiddleware } from "../../middlewares/auth.middleware";
 
@@ -10,5 +10,6 @@ router.post("/login", AuthController.login);
 router.get("/me", authMiddleware, AuthController.getCurrentUser);
 router.post("/refresh-token", AuthController.refreshToken);
 router.post("/logout", authMiddleware, AuthController.logout);
+
 
 export default router;

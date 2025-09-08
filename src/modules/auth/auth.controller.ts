@@ -191,7 +191,7 @@ export class AuthController {
   }
 
   static async logout(
-    req: Request,
+    _req: Request,
     res: Response,
     next: NextFunction
   ): Promise<Response | void> {
@@ -214,4 +214,5 @@ export class AuthController {
       next(error);
     }
   }
+
 }

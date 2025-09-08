@@ -16,6 +16,7 @@ const REFRESH_TOKEN_EXPIRY = (env.REFRESH_TOKEN_EXPIRY || "7d") as jwt.SignOptio
 
 export const JwtService = {
   generateAccessToken: (payload: object): string => {
+    
     return jwt.sign(payload, ACCESS_TOKEN_SECRET, { 
       expiresIn: ACCESS_TOKEN_EXPIRY,
       algorithm: "HS256", // ✅ algo explicitly set (default bhi yahi hai, but safe to declare)
@@ -58,4 +59,5 @@ export const JwtService = {
       throw new Error("Invalid refresh token");
     }
   },
+
 };
