@@ -1,10 +1,12 @@
-import app from './app';
+import app from './app';  
 import dotenv from 'dotenv';
 import {Server} from 'socket.io';
 import http from 'http';
 import jwt from 'jsonwebtoken';
-import sequelize from './config/database';
+import "./models/associations";
 import env from './config/env';
+import db from './models/associations';
+import { connectRedis } from './config/redis';
 dotenv.config();
 
 const PORT =env.PORT || 5000;
@@ -68,21 +70,21 @@ io.of('/realtime').on('connection', (socket) => {
 
 const connectWithRetry = async (retries = 5, delay = 5000) => {
   try {
-    await sequelize.authenticate();
-    console.log('Database connection established successfully.');
+    await db.sequelize.authenticate();
+    console.log("Database connected & synced ✅");
   } catch (error) {
     if (retries === 0) {
-      console.error('Database connection failed after multiple retries:', error);
+      console.error("Database connection failed after retries:", error);
       process.exit(1);
     }
-    
-    console.log(`Retrying database connection... (${retries} retries left)`);
-    await new Promise(resolve => setTimeout(resolve, delay));
+    console.log(`Retrying DB connection... (${retries} left)`);
+    await new Promise((resolve) => setTimeout(resolve, delay));
     await connectWithRetry(retries - 1, delay);
   }
 };
 (async () => {
   await connectWithRetry();
+  await connectRedis();
   server.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
   });

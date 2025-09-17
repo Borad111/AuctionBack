@@ -10,6 +10,7 @@
   import * as Sentry from "@sentry/node";
   import env from "./config/env";
   import AuthRouter from "./modules/auth/auth.routes";
+  import AuctionRouter from "./modules/auction/auction.route";
 import { sentryUserContext } from "./middlewares/sentryUser.middleware";
 
   dotenv.config();
@@ -88,6 +89,7 @@ import { sentryUserContext } from "./middlewares/sentryUser.middleware";
   });
 
   app.use("/api/v1/auth", AuthRouter);
+  app.use("/api/v1/auction", AuctionRouter);
 
   /* --------------------  404 HANDLER  -------------------- */
   app.use((req: Request, _res: Response, next: NextFunction) => {

@@ -62,7 +62,7 @@ User.init(
     emailVerifiedAt: {
       type: DataTypes.DATE,
       allowNull: true,
-    },
+    },                                
   },
   {
     sequelize,

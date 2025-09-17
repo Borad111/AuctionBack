@@ -4,7 +4,7 @@ import { JwtService } from "../utils/jwt.service";
 
 export const authMiddleware = async (
   req: Request,
-  res: Response,
+  _res: Response,
   next: NextFunction
 ): Promise<void> => {
   try {

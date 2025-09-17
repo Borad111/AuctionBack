@@ -15,7 +15,7 @@ export class UtilsService {
 
   static throwError(message: string, statusCode = 500): never {
     switch (statusCode) {
-      case 400:
+      case 400: 
         throw new ValidationError(message);
       case 409:
         throw new DuplicateError(message);
