@@ -1,6 +1,6 @@
 import { AuctionItem } from "../../../../models/auctionItem.model";
 import { RedisService } from "../../../../utils/redis.service";
-import { AuctionService } from "../../auction.service";
+import { AuctionService } from "../../services/auction.service";
 
 // Mocks
 jest.mock("../../../../utils/redis.service");

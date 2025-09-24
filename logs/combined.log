@@ -4235,3 +4235,1117 @@
 {"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-17T12:37:03.245Z"}
 {"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-17T12:40:27.574Z"}
 {"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-17T12:40:27.575Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - MISS","timestamp":"2025-09-18T04:38:56.114Z"}
+{"level":"info","message":"Redis GET categories:all - 33ms - MISS","timestamp":"2025-09-18T04:38:56.145Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T04:39:18.137Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:39:18.138Z"}
+{"level":"info","message":"Redis GET auctions:all - 45ms - HIT","timestamp":"2025-09-18T04:39:27.499Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:39:27.500Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T04:40:47.077Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:40:47.078Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T04:40:48.229Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:40:48.233Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T04:40:50.851Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:40:50.851Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T04:40:53.214Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:40:53.214Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T04:41:05.500Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:41:05.500Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T04:41:10.090Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:41:10.091Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T04:41:24.482Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:41:24.485Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T04:41:47.268Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:41:47.269Z"}
+{"level":"info","message":"Redis GET auctions:all - 23ms - HIT","timestamp":"2025-09-18T04:41:50.534Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:41:50.535Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T04:42:08.705Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:42:08.706Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T04:42:22.523Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:42:22.523Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T04:42:45.191Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:42:45.192Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T04:49:25.631Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:49:25.634Z"}
+{"level":"info","message":"Redis GET auctions:all - 12ms - HIT","timestamp":"2025-09-18T04:49:32.047Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-18T04:49:32.048Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:49:32.048Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T04:49:51.288Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T04:49:51.289Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:49:51.289Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T04:56:53.890Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:56:53.890Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T04:57:53.446Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:57:53.447Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T04:58:08.437Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:58:08.437Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T04:58:14.955Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:58:14.956Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T04:58:36.286Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T04:58:36.287Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T05:01:14.312Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:01:14.313Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T05:01:49.606Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:01:49.606Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T05:01:55.417Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:01:55.417Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T05:01:59.167Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T05:01:59.168Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:01:59.169Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T05:02:57.405Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:02:57.406Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T05:03:12.474Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:03:12.474Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T05:03:22.304Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:03:22.305Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T05:03:26.405Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:03:26.405Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-18T05:03:28.797Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-18T05:03:28.799Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:03:28.799Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T05:03:33.335Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:03:33.336Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T05:08:09.931Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:08:09.931Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T05:08:13.164Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:08:13.168Z"}
+{"level":"info","message":"Redis GET categories:all - 13ms - HIT","timestamp":"2025-09-18T05:08:13.176Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T05:08:21.264Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:08:21.265Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T05:08:31.373Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:08:31.374Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T05:10:46.838Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:10:46.838Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T05:10:48.788Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:10:48.789Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T05:11:50.724Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:11:50.724Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T05:28:46.896Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:28:46.897Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T05:30:25.041Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T05:30:25.041Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:30:25.043Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T05:31:47.182Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:31:47.184Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T05:32:12.331Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:32:12.332Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-18T05:48:32.228Z"}
+{"level":"info","message":"Redis GET auctions:all - 15ms - HIT","timestamp":"2025-09-18T05:48:43.494Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:48:43.494Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T05:49:46.659Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:49:46.660Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T05:51:43.293Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:51:43.293Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T05:52:04.206Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:52:04.206Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T05:59:53.894Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:59:53.895Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T05:59:58.108Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-18T05:59:58.109Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T05:59:58.109Z"}
+{"level":"info","message":"Redis GET auctions:all - 17ms - HIT","timestamp":"2025-09-18T06:00:18.128Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:00:18.130Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:00:32.771Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:00:32.771Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T06:00:34.168Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:00:34.169Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:00:35.963Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:00:35.964Z"}
+{"level":"info","message":"Redis GET auctions:all - 12ms - HIT","timestamp":"2025-09-18T06:01:04.956Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:01:04.958Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:01:46.931Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:01:46.932Z"}
+{"level":"info","message":"Redis GET auctions:all - 20ms - HIT","timestamp":"2025-09-18T06:01:49.125Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:01:49.131Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T06:06:53.452Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-18T06:06:53.452Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:06:53.452Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T06:06:58.948Z"}
+{"level":"info","message":"Redis GET categories:all - 6ms - HIT","timestamp":"2025-09-18T06:06:58.949Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:06:58.950Z"}
+{"level":"info","message":"Redis GET auctions:all - 12ms - HIT","timestamp":"2025-09-18T06:07:09.566Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-18T06:07:09.567Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:07:09.567Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T06:07:23.303Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-18T06:07:23.304Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:07:23.304Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:07:45.176Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:07:45.176Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:08:08.620Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:08:08.620Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:08:10.320Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:08:10.321Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:08:16.834Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:08:16.835Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:08:17.789Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:08:17.790Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:08:25.950Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:08:25.950Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:09:19.037Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:09:19.038Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:09:33.600Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T06:09:33.601Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:09:33.602Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:10:05.380Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:10:05.382Z"}
+{"level":"info","message":"Redis GET categories:all - 10ms - HIT","timestamp":"2025-09-18T06:10:05.406Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T06:10:20.141Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:10:20.141Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:10:28.557Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:10:28.557Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:10:30.986Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:10:30.986Z"}
+{"level":"info","message":"Redis GET categories:all - 18ms - HIT","timestamp":"2025-09-18T06:10:31.004Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:10:54.742Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:10:54.743Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:15:16.331Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:15:16.331Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-18T06:15:16.352Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:15:16.981Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:15:16.982Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:15:20.284Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:15:20.284Z"}
+{"level":"info","message":"Redis GET auctions:all - 17ms - HIT","timestamp":"2025-09-18T06:15:26.506Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:15:26.507Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T06:15:33.624Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:15:33.625Z"}
+{"level":"info","message":"Redis GET auctions:all - 14ms - HIT","timestamp":"2025-09-18T06:17:09.043Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:17:09.043Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:18:10.643Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:18:10.645Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:18:15.235Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:18:15.236Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T06:18:31.974Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:18:31.974Z"}
+{"level":"info","message":"Redis GET auctions:all - 17ms - HIT","timestamp":"2025-09-18T06:18:36.544Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:18:36.550Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T06:20:48.537Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:20:48.538Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T06:20:51.504Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:20:51.505Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:21:22.449Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:21:22.450Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:21:25.072Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:21:25.072Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:21:29.795Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:21:29.795Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:21:55.157Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:21:55.158Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:22:21.654Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:22:21.657Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T06:22:28.291Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:22:28.292Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:22:58.077Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:22:58.077Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:23:01.829Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:23:01.830Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T06:23:10.524Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:23:10.525Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-18T06:23:30.341Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:23:30.342Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:27:05.167Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:27:05.167Z"}
+{"level":"info","message":"Redis GET auctions:all - 25ms - HIT","timestamp":"2025-09-18T06:27:07.496Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:27:07.497Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:29:00.721Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:29:00.724Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T06:29:07.436Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:29:07.438Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T06:29:21.781Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:29:21.782Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T06:30:04.822Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:30:04.824Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:30:08.726Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:30:08.726Z"}
+{"level":"info","message":"Redis GET auctions:all - 38ms - HIT","timestamp":"2025-09-18T06:30:45.645Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:30:45.653Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T06:32:13.268Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:32:13.269Z"}
+{"level":"info","message":"Redis GET auctions:all - 24ms - HIT","timestamp":"2025-09-18T06:34:29.632Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:34:29.633Z"}
+{"level":"info","message":"Redis GET auctions:all - 17ms - HIT","timestamp":"2025-09-18T06:37:16.117Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:37:16.120Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T06:38:09.272Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:38:09.274Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:38:57.260Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:38:57.261Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:39:02.432Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:39:02.432Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:39:05.594Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:39:05.594Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:39:13.062Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:39:13.062Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:39:13.751Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:39:13.751Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:39:15.229Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:39:15.230Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:40:03.508Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:40:03.508Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T06:40:22.231Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:40:22.232Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:41:58.952Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:41:58.952Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:42:01.650Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:42:01.650Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T06:42:37.756Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:42:37.756Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T06:44:52.171Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:44:52.172Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T06:47:21.727Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:47:21.727Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-18T06:49:03.729Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T06:49:19.247Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T06:49:19.248Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T07:17:36.332Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:17:36.332Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T07:18:33.675Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:18:33.675Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T07:27:28.578Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:27:28.578Z"}
+{"level":"info","message":"Redis GET auctions:all - 25ms - HIT","timestamp":"2025-09-18T07:27:34.061Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:27:34.061Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T07:27:50.494Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:27:50.495Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T07:31:08.050Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:31:08.051Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T07:31:08.684Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:31:08.684Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T07:31:16.046Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:31:16.047Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T07:31:26.601Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - MISS","timestamp":"2025-09-18T07:31:26.602Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:31:26.602Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - MISS","timestamp":"2025-09-18T07:59:31.082Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-18T07:59:31.085Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T07:59:57.633Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T07:59:57.636Z"}
+{"level":"info","message":"Redis GET categories:all - 25ms - HIT","timestamp":"2025-09-18T07:59:57.655Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T08:34:04.850Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:34:04.850Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-18T08:34:04.873Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T08:34:07.373Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-18T08:34:07.374Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:34:07.375Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T08:34:33.167Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:34:33.168Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-18T08:34:33.176Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T08:38:09.791Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:38:09.792Z"}
+{"level":"info","message":"Redis GET auctions:all - 12ms - HIT","timestamp":"2025-09-18T08:38:12.068Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:38:12.068Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T08:38:37.622Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:38:37.622Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T08:39:40.403Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:39:40.404Z"}
+{"level":"info","message":"Redis GET categories:all - 6ms - HIT","timestamp":"2025-09-18T08:39:40.430Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T08:40:03.166Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:40:03.166Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T08:40:08.921Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-18T08:40:08.924Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:40:08.924Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T08:40:54.029Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T08:40:54.029Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - MISS","timestamp":"2025-09-18T09:11:21.276Z"}
+{"level":"info","message":"Redis GET categories:all - 10ms - HIT","timestamp":"2025-09-18T09:11:21.300Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T09:11:25.139Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:11:25.141Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T09:11:55.136Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:11:55.136Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:12:04.225Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:12:04.226Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T09:12:41.199Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-18T09:12:41.199Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:12:41.201Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-18T09:13:20.578Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T09:13:20.578Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:13:20.578Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-18T09:13:33.951Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:13:33.952Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T09:18:27.314Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T09:18:27.315Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:18:27.315Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T09:18:50.926Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:18:50.926Z"}
+{"level":"info","message":"Redis GET categories:all - 15ms - HIT","timestamp":"2025-09-18T09:18:50.940Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:18:52.485Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:18:52.486Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T09:19:00.879Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-18T09:19:00.880Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:19:00.881Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:19:08.585Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:19:08.585Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:19:22.313Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:19:22.317Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T09:19:27.183Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:19:27.183Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T09:22:19.884Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-18T09:22:19.885Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:22:19.886Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:22:27.366Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:22:27.366Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T09:22:38.528Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:22:38.528Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:22:39.751Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:22:39.751Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:22:41.239Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:22:41.240Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:22:48.719Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:22:48.719Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:25:00.064Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:25:00.065Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:25:32.011Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:25:32.012Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:25:39.156Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:25:39.160Z"}
+{"level":"info","message":"Redis GET auctions:all - 20ms - HIT","timestamp":"2025-09-18T09:25:42.077Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:25:42.079Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T09:25:49.765Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:25:49.765Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:25:54.216Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:25:54.218Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T09:26:04.600Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:26:04.600Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T09:26:12.989Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:26:12.991Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:27:00.014Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:27:00.014Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T09:27:02.157Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:27:02.158Z"}
+{"level":"info","message":"Redis GET categories:all - 33ms - HIT","timestamp":"2025-09-18T09:27:02.185Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:29:48.635Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:29:48.636Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:29:50.712Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:29:50.713Z"}
+{"level":"info","message":"Redis GET auctions:all - 14ms - HIT","timestamp":"2025-09-18T09:30:06.338Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:30:06.339Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T09:30:20.572Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:30:20.573Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T09:30:28.439Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:30:28.439Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:30:32.518Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:30:32.519Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T09:31:18.719Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:31:18.719Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:31:22.393Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:31:22.393Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:31:48.288Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:31:48.289Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:35:51.072Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:35:51.072Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:35:55.708Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:35:55.708Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T09:37:07.584Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:37:07.585Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T09:37:13.402Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:37:13.403Z"}
+{"level":"info","message":"Redis GET auctions:all - 14ms - HIT","timestamp":"2025-09-18T09:37:16.617Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:37:16.618Z"}
+{"level":"info","message":"Redis GET categories:all - 20ms - HIT","timestamp":"2025-09-18T09:37:16.635Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T09:39:15.468Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:39:15.468Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T09:39:49.721Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:39:49.721Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:39:52.709Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:39:52.710Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-18T09:39:52.723Z"}
+{"level":"info","message":"Redis GET auctions:all - 15ms - HIT","timestamp":"2025-09-18T09:41:17.711Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:41:17.711Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T09:41:38.483Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:41:38.484Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:41:49.203Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:41:49.204Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T09:41:54.657Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:41:54.657Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T09:44:36.887Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:44:36.888Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T09:44:43.650Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:44:43.653Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T09:44:51.101Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:44:51.101Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-18T09:44:54.457Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:44:54.458Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T09:46:59.694Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:46:59.695Z"}
+{"level":"info","message":"Redis GET auctions:all - 14ms - HIT","timestamp":"2025-09-18T09:47:08.333Z"}
+{"level":"info","message":"Redis GET categories:all - 14ms - HIT","timestamp":"2025-09-18T09:47:08.336Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:47:08.339Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T09:55:30.342Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T09:55:30.343Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T09:55:30.344Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-18T10:22:10.855Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T10:30:48.979Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:30:48.981Z"}
+{"level":"info","message":"Redis GET categories:all - 16ms - HIT","timestamp":"2025-09-18T10:30:48.988Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T10:31:11.307Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:31:11.308Z"}
+{"level":"info","message":"Redis GET auctions:all - 16ms - HIT","timestamp":"2025-09-18T10:31:31.078Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:31:31.083Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T10:31:33.814Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:31:33.815Z"}
+{"level":"info","message":"Redis GET categories:all - 21ms - HIT","timestamp":"2025-09-18T10:31:33.832Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T10:31:44.602Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:31:44.603Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T10:31:46.019Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:31:46.019Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-18T10:31:46.038Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:31:50.895Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:31:50.895Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:33:44.469Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:33:44.471Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T10:33:46.576Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:33:46.576Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:33:48.710Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:33:48.711Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T10:34:12.639Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:34:12.640Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T10:34:14.056Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:34:14.056Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:36:09.527Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:36:09.528Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T10:40:06.025Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-18T10:40:06.025Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:40:06.025Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T10:42:28.116Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:42:28.117Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T10:42:32.803Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:42:32.804Z"}
+{"level":"info","message":"Redis GET categories:all - 10ms - HIT","timestamp":"2025-09-18T10:42:32.845Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:42:54.243Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:42:54.244Z"}
+{"level":"info","message":"Redis GET auctions:all - 12ms - HIT","timestamp":"2025-09-18T10:43:03.451Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:43:03.454Z"}
+{"level":"info","message":"Redis GET categories:all - 20ms - HIT","timestamp":"2025-09-18T10:43:03.476Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:43:21.022Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:43:21.023Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:43:21.862Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:43:21.863Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-18T10:45:16.188Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:45:16.189Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T10:45:28.180Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:45:28.180Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T10:45:38.536Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:45:38.537Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T10:45:58.569Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:45:58.569Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T10:47:36.303Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:47:36.304Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T10:47:55.556Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:47:55.556Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T10:50:15.300Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:50:15.301Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T10:50:43.150Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T10:50:43.150Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T11:00:03.881Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:00:03.882Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T11:06:38.851Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:06:38.852Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T11:08:19.144Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:08:19.144Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T11:13:37.069Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:13:37.070Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-18T11:18:23.564Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:18:23.565Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:18:28.034Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:18:28.035Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-18T11:23:28.318Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T11:23:30.785Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:23:30.786Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:30:34.502Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:30:34.503Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:31:53.223Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:31:53.224Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:32:02.420Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:32:02.421Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-18T11:33:19.690Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:19.691Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-18T11:33:33.205Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:33.205Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T11:33:35.845Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:35.847Z"}
+{"level":"info","message":"Redis GET categories:all - 15ms - HIT","timestamp":"2025-09-18T11:33:35.860Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-18T11:33:38.225Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:33:38.229Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:38.230Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:33:41.920Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:41.921Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-18T11:33:41.927Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-18T11:33:44.879Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T11:33:44.886Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:44.887Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-18T11:33:46.996Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-18T11:33:46.997Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:46.997Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:33:55.835Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:33:55.836Z"}
+{"level":"info","message":"Redis GET categories:all - 14ms - HIT","timestamp":"2025-09-18T11:33:55.848Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-18T11:34:05.794Z"}
+{"level":"info","message":"Redis GET categories:all - 10ms - HIT","timestamp":"2025-09-18T11:34:05.794Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:34:05.795Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-18T11:34:25.243Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:34:25.244Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:34:27.550Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:34:27.551Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-18T11:34:27.556Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:34:36.119Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:34:36.120Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:34:38.609Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:34:38.609Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-18T11:34:38.627Z"}
+{"level":"info","message":"Redis GET categories:all - 6ms - HIT","timestamp":"2025-09-18T11:34:43.132Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-18T11:34:43.138Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:34:43.138Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-18T11:35:23.359Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:35:23.359Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:35:40.316Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:35:40.316Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:39:28.683Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:39:28.684Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:40:31.859Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:40:31.859Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-18T11:41:04.253Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:41:04.254Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-18T11:53:08.225Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-18T11:53:08.226Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - MISS","timestamp":"2025-09-19T04:19:48.491Z"}
+{"level":"info","message":"Redis GET categories:all - 26ms - MISS","timestamp":"2025-09-19T04:19:48.514Z"}
+{"level":"info","message":"Redis GET auctions:all - 16ms - HIT","timestamp":"2025-09-19T04:19:59.291Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:19:59.296Z"}
+{"level":"info","message":"Redis GET auctions:all - 22ms - HIT","timestamp":"2025-09-19T04:20:04.144Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:20:04.148Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T04:20:33.722Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:20:33.723Z"}
+{"level":"info","message":"Redis GET auctions:all - 17ms - HIT","timestamp":"2025-09-19T04:20:47.267Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:20:47.267Z"}
+{"level":"info","message":"Redis GET auctions:all - 20ms - HIT","timestamp":"2025-09-19T04:20:50.452Z"}
+{"level":"info","message":"Redis GET categories:all - 17ms - HIT","timestamp":"2025-09-19T04:20:50.453Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:20:50.453Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:20:58.997Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:20:58.998Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T04:21:01.340Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:21:01.341Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:21:04.654Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:21:04.655Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T04:21:09.861Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:21:09.861Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:21:10.955Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:21:10.956Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:21:31.953Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:21:31.954Z"}
+{"level":"info","message":"Redis GET auctions:all - 10ms - HIT","timestamp":"2025-09-19T04:28:19.020Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:28:19.020Z"}
+{"level":"info","message":"Redis GET categories:all - 16ms - HIT","timestamp":"2025-09-19T04:28:19.042Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:31:30.621Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:31:30.622Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T04:31:33.586Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:31:33.586Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-19T04:31:33.600Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T04:31:42.787Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:31:42.788Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T04:31:55.834Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:31:55.836Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:32:50.573Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:32:50.574Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T04:33:01.992Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:33:01.993Z"}
+{"level":"info","message":"Redis GET auctions:all - 10ms - HIT","timestamp":"2025-09-19T04:34:59.625Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:34:59.629Z"}
+{"level":"info","message":"Redis GET categories:all - 20ms - HIT","timestamp":"2025-09-19T04:34:59.638Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T04:35:47.187Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:35:47.187Z"}
+{"level":"info","message":"Redis GET categories:all - 6ms - HIT","timestamp":"2025-09-19T04:35:47.192Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T04:36:06.412Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:36:06.412Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-19T04:36:06.418Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T04:36:20.522Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:36:20.524Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T04:37:20.768Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:37:20.768Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T04:37:35.026Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:37:35.027Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-19T04:37:51.994Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:37:51.996Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T04:39:55.489Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-19T04:39:55.489Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:39:55.490Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T04:39:56.731Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:39:56.733Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-19T04:39:56.738Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T04:40:11.757Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-19T04:40:11.758Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:40:11.758Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T04:40:35.831Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:40:35.832Z"}
+{"level":"info","message":"Redis GET categories:all - 14ms - HIT","timestamp":"2025-09-19T04:40:35.842Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T04:40:38.439Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-19T04:40:38.440Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:40:38.441Z"}
+{"level":"info","message":"Redis GET auctions:all - 20ms - HIT","timestamp":"2025-09-19T04:41:49.551Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:41:49.555Z"}
+{"level":"info","message":"Redis GET categories:all - 22ms - HIT","timestamp":"2025-09-19T04:41:49.572Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T04:41:53.307Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:41:53.307Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-19T04:41:53.313Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:49:20.010Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:49:20.010Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:49:24.458Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:49:24.459Z"}
+{"level":"info","message":"Redis GET categories:all - 28ms - HIT","timestamp":"2025-09-19T04:49:24.508Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-19T04:49:39.435Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:49:39.436Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T04:50:03.399Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:50:03.400Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T04:51:15.243Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:51:15.244Z"}
+{"level":"info","message":"Redis GET auctions:all - 16ms - HIT","timestamp":"2025-09-19T04:51:47.605Z"}
+{"level":"info","message":"Redis GET categories:all - 14ms - HIT","timestamp":"2025-09-19T04:51:47.606Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:51:47.607Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-19T04:52:08.469Z"}
+{"level":"info","message":"Redis GET categories:all - 12ms - HIT","timestamp":"2025-09-19T04:52:08.470Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:52:08.474Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T04:52:21.614Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:52:21.616Z"}
+{"level":"info","message":"Redis GET categories:all - 16ms - HIT","timestamp":"2025-09-19T04:52:21.629Z"}
+{"level":"info","message":"Redis GET auctions:all - 10ms - HIT","timestamp":"2025-09-19T04:52:45.843Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:52:45.847Z"}
+{"level":"info","message":"Redis GET categories:all - 20ms - HIT","timestamp":"2025-09-19T04:52:45.858Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T04:52:56.996Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:52:56.996Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T04:52:59.727Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:52:59.729Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T04:53:17.181Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T04:53:17.182Z"}
+{"level":"info","message":"Redis GET auctions:all - 19ms - HIT","timestamp":"2025-09-19T05:00:19.447Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:00:19.453Z"}
+{"level":"info","message":"Redis GET categories:all - 24ms - HIT","timestamp":"2025-09-19T05:00:19.471Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:04:54.116Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:04:54.116Z"}
+{"level":"info","message":"Redis GET categories:all - 10ms - HIT","timestamp":"2025-09-19T05:04:54.125Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-19T05:04:59.368Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:05:01.339Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:05:01.340Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:05:05.924Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:05:05.925Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-19T05:11:34.785Z"}
+{"level":"info","message":"Redis GET categories:all - 19ms - HIT","timestamp":"2025-09-19T05:11:34.791Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:11:34.792Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:11:50.024Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:11:50.028Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:12:04.225Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:04.229Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T05:12:09.650Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:09.650Z"}
+{"level":"info","message":"Redis GET auctions:all - 17ms - HIT","timestamp":"2025-09-19T05:12:13.493Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:13.495Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:12:17.896Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:17.897Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:12:51.185Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:51.185Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:12:52.449Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:52.449Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:12:57.868Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:12:57.870Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:13:39.251Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:13:39.252Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:14:06.568Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:14:06.568Z"}
+{"level":"info","message":"Redis GET auctions:all - 10ms - HIT","timestamp":"2025-09-19T05:14:09.862Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:14:09.864Z"}
+{"level":"info","message":"Redis GET categories:all - 14ms - HIT","timestamp":"2025-09-19T05:14:09.875Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:14:23.580Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:14:23.581Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:14:31.620Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:14:31.620Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:14:43.912Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:14:43.921Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:16:38.659Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:16:38.659Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:16:41.739Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:16:41.740Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-19T05:16:41.758Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T05:16:44.933Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:16:44.934Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:17:16.513Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:17:16.514Z"}
+{"level":"info","message":"Redis GET auctions:all - 11ms - HIT","timestamp":"2025-09-19T05:17:19.370Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:17:19.370Z"}
+{"level":"info","message":"Redis GET categories:all - 11ms - HIT","timestamp":"2025-09-19T05:17:19.377Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:17:53.931Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:17:53.931Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:17:54.960Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:17:54.960Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T05:17:57.538Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:17:57.538Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T05:18:16.070Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:18:16.072Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-19T05:20:36.651Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T05:20:39.541Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:20:39.543Z"}
+{"level":"info","message":"Redis GET categories:all - 6ms - HIT","timestamp":"2025-09-19T05:20:39.559Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:21:28.764Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:21:28.764Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:21:32.489Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:21:32.489Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-19T05:21:32.511Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:22:17.165Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:22:17.165Z"}
+{"level":"info","message":"Redis GET auctions:all - 33ms - HIT","timestamp":"2025-09-19T05:22:19.831Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:22:19.835Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T05:22:26.220Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:22:26.221Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:24:56.226Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:24:56.229Z"}
+{"level":"info","message":"Redis GET auctions:all - 32ms - HIT","timestamp":"2025-09-19T05:24:58.958Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:24:58.961Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:25:10.442Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:25:10.444Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:25:13.562Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:25:13.564Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-19T05:25:13.585Z"}
+{"error":{"categories":[{"auctionCount":"6","icon":"Book","id":"5a653b02-b454-4ba2-99a4-6e37a0cc7a07","name":"Books"},{"auctionCount":"3","icon":"Car","id":"07b21edf-3d74-426a-a940-34a5d4acf9be","name":"Cars"},{"auctionCount":"2","icon":"Laptop","id":"3d882b31-94f8-4165-a364-4c0fbb459e71","name":"Electronics"}],"message":"Categories fetched successfully"},"level":"error","message":"Error 500: Internal server error","timestamp":"2025-09-19T05:25:13.644Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:35:00.394Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:35:00.395Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:36:36.767Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:36:36.768Z"}
+{"level":"info","message":"Redis GET categories:all - 20ms - HIT","timestamp":"2025-09-19T05:36:36.784Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:36:55.651Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:36:55.651Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-19T05:36:55.657Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:37:02.763Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:37:02.764Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:37:05.119Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:37:05.121Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-19T05:37:05.154Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:37:20.520Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:37:20.521Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:37:22.721Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:37:22.722Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:38:19.674Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:38:19.675Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:38:42.420Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:38:42.420Z"}
+{"level":"info","message":"Redis GET categories:all - 11ms - HIT","timestamp":"2025-09-19T05:38:42.430Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:39:00.006Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:39:00.009Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T05:39:03.197Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:39:03.198Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:39:17.125Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:39:17.125Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:39:24.658Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:39:24.658Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:40:40.917Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:40:40.918Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:42:57.434Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:42:57.435Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T05:42:59.433Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:42:59.434Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:43:42.517Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:43:42.518Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:44:28.937Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:44:28.939Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-19T05:44:31.753Z"}
+{"level":"info","message":"Redis GET categories:all - 11ms - HIT","timestamp":"2025-09-19T05:44:31.757Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:44:31.758Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:48:20.006Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:48:20.007Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T05:48:33.382Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:48:33.382Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T05:50:13.487Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:50:13.487Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-19T05:54:45.598Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:54:45.598Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-19T05:55:00.917Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:55:00.921Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:55:13.729Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:55:13.730Z"}
+{"level":"info","message":"Redis GET auctions:all - 21ms - HIT","timestamp":"2025-09-19T05:55:17.363Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:55:17.366Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T05:55:52.408Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:55:52.410Z"}
+{"level":"info","message":"Redis GET categories:all - 12ms - HIT","timestamp":"2025-09-19T05:55:52.418Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T05:57:42.881Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-19T05:57:42.882Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:57:42.882Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T05:57:51.363Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:57:51.364Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T05:58:07.555Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:07.555Z"}
+{"level":"info","message":"Redis GET categories:all - 10ms - HIT","timestamp":"2025-09-19T05:58:07.564Z"}
+{"level":"info","message":"Redis GET auctions:all - 14ms - HIT","timestamp":"2025-09-19T05:58:12.297Z"}
+{"level":"info","message":"Redis GET categories:all - 6ms - HIT","timestamp":"2025-09-19T05:58:12.297Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:12.298Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:58:14.403Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-19T05:58:14.404Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:14.405Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T05:58:24.622Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:24.622Z"}
+{"level":"info","message":"Redis GET categories:all - 12ms - HIT","timestamp":"2025-09-19T05:58:24.628Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:58:37.087Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-19T05:58:37.088Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:37.088Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T05:58:48.524Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:48.525Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-19T05:58:48.529Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T05:58:53.584Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T05:58:53.585Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:00:48.111Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:00:48.112Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-19T06:00:48.118Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:02:52.746Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-19T06:02:52.747Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:02:52.747Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:02:56.036Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:02:56.036Z"}
+{"level":"info","message":"Redis GET auctions:all - 12ms - HIT","timestamp":"2025-09-19T06:02:59.820Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:02:59.820Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-19T06:02:59.836Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:03:33.137Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:03:33.138Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T06:03:41.516Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:03:41.517Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T06:08:16.130Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:08:16.131Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:08:21.135Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:08:21.139Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:08:48.713Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:08:48.713Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:08:58.256Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:08:58.256Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T06:09:00.951Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:09:00.953Z"}
+{"level":"info","message":"Redis GET categories:all - 15ms - HIT","timestamp":"2025-09-19T06:09:00.965Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:09:10.058Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:09:10.061Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T06:10:53.723Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:10:53.723Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T06:11:38.618Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:11:38.619Z"}
+{"level":"info","message":"Redis GET categories:all - 13ms - HIT","timestamp":"2025-09-19T06:11:38.627Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:11:58.663Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:11:58.663Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:13:20.966Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:13:20.967Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:13:45.559Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:13:45.559Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:13:48.653Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:13:48.653Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-19T06:13:48.660Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:13:57.570Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:13:57.571Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:14:06.012Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:14:06.013Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:14:24.058Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:14:24.060Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:14:33.368Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:14:33.369Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T06:17:52.803Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:17:52.804Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-19T06:17:52.812Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:18:32.107Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:18:32.108Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-19T06:18:32.116Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:18:36.578Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:18:36.579Z"}
+{"level":"info","message":"Redis GET categories:all - 14ms - HIT","timestamp":"2025-09-19T06:18:36.589Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:18:38.283Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:18:38.285Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-19T06:18:38.289Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:18:51.987Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:18:51.989Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - MISS","timestamp":"2025-09-19T06:20:50.648Z"}
+{"level":"info","message":"Redis GET categories:all - 7ms - HIT","timestamp":"2025-09-19T06:20:50.654Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:21:03.401Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:21:03.402Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:21:19.191Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:21:19.191Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:21:33.029Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:21:33.029Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:21:37.255Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:21:37.256Z"}
+{"level":"info","message":"Redis GET categories:all - 4ms - HIT","timestamp":"2025-09-19T06:21:37.269Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:22:30.184Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:22:30.184Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T06:24:22.474Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:24:22.475Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:25:27.384Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:25:27.384Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:27:01.806Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:27:01.807Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T06:27:04.373Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:27:04.373Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:27:51.051Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:27:51.051Z"}
+{"level":"info","message":"Redis GET auctions:all - 16ms - HIT","timestamp":"2025-09-19T06:27:55.499Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:27:55.501Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:28:06.770Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:28:06.770Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:29:10.580Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:29:10.580Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T06:30:45.165Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:30:45.166Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - HIT","timestamp":"2025-09-19T06:30:47.710Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:30:47.713Z"}
+{"level":"info","message":"Redis GET auctions:all - 20ms - HIT","timestamp":"2025-09-19T06:33:33.965Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:33:33.966Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:33:47.792Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-19T06:33:47.793Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:33:47.793Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T06:33:50.512Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:33:50.513Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:33:54.184Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:33:54.185Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:33:59.476Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:33:59.476Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:35:09.087Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:35:09.088Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:36:27.776Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:36:27.777Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:36:33.208Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:36:33.209Z"}
+{"level":"info","message":"Redis GET categories:all - 13ms - HIT","timestamp":"2025-09-19T06:36:33.216Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:38:25.960Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:38:25.961Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:40:01.335Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:40:01.335Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-19T06:40:54.306Z"}
+{"level":"info","message":"Redis GET categories:all - 8ms - HIT","timestamp":"2025-09-19T06:40:54.307Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:40:54.307Z"}
+{"level":"info","message":"Redis GET auctions:all - 15ms - HIT","timestamp":"2025-09-19T06:41:09.544Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:41:09.548Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:41:12.955Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:41:12.957Z"}
+{"level":"info","message":"Redis GET categories:all - 9ms - HIT","timestamp":"2025-09-19T06:41:12.964Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T06:42:02.727Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:42:02.728Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:42:13.871Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:42:13.872Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-19T06:42:22.545Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:42:22.545Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T06:43:05.827Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:43:05.827Z"}
+{"level":"info","message":"Redis GET auctions:all - 9ms - HIT","timestamp":"2025-09-19T06:43:09.486Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:43:09.487Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T06:45:12.415Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:45:12.415Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T06:45:22.616Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:45:22.616Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T06:45:51.871Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T06:45:51.871Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - HIT","timestamp":"2025-09-19T07:19:05.956Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:19:05.957Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:19:08.471Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:19:08.471Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:19:22.150Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:19:22.150Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T07:19:31.032Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:19:31.033Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-19T07:19:43.922Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:19:43.923Z"}
+{"level":"info","message":"Redis GET categories:all - 13ms - HIT","timestamp":"2025-09-19T07:19:43.933Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:20:00.804Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:20:00.805Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:20:01.700Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:20:01.701Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:20:02.511Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:20:02.511Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:20:04.143Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:20:04.144Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-19T07:20:04.930Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T07:20:04.931Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - MISS","timestamp":"2025-09-19T07:29:55.021Z"}
+{"level":"info","message":"Redis GET categories:all - 3ms - HIT","timestamp":"2025-09-19T07:29:55.024Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-19T08:35:21.207Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - MISS","timestamp":"2025-09-19T08:35:21.209Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-19T08:37:30.911Z"}
+{"level":"info","message":"Redis GET categories:all - 2ms - HIT","timestamp":"2025-09-19T08:37:30.911Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T08:37:30.911Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-19T08:38:18.108Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-19T08:38:18.108Z"}
+{"level":"info","message":"Redis GET categories:all - 5ms - HIT","timestamp":"2025-09-19T08:38:18.112Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - MISS","timestamp":"2025-09-22T03:46:19.535Z"}
+{"level":"info","message":"Redis GET categories:all - 27ms - MISS","timestamp":"2025-09-22T03:46:19.561Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-22T03:47:09.977Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T03:47:09.979Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-22T03:49:35.571Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T03:49:35.572Z"}
+{"level":"info","message":"Redis GET auctions:all - 1ms - MISS","timestamp":"2025-09-22T06:46:56.016Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-22T07:10:25.516Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:10:25.517Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-22T07:10:26.662Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:10:26.662Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-22T07:30:25.671Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:30:25.671Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-22T07:30:32.231Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:30:32.232Z"}
+{"level":"info","message":"Redis GET categories:all - 17ms - MISS","timestamp":"2025-09-22T07:30:32.245Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-22T07:30:44.502Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:30:44.503Z"}
+{"level":"info","message":"Redis GET auctions:all - 5ms - HIT","timestamp":"2025-09-22T07:30:54.671Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:30:54.672Z"}
+{"level":"info","message":"Redis GET auctions:all - 6ms - HIT","timestamp":"2025-09-22T07:34:59.764Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:34:59.765Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-22T07:35:01.170Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:35:01.171Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-22T07:35:02.390Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T07:35:02.390Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - MISS","timestamp":"2025-09-22T07:57:04.634Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - MISS","timestamp":"2025-09-22T09:23:28.627Z"}
+{"level":"info","message":"Redis GET auctions:all - 2ms - HIT","timestamp":"2025-09-22T09:38:42.707Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T09:38:42.707Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - HIT","timestamp":"2025-09-22T09:39:00.274Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T09:39:00.275Z"}
+{"level":"info","message":"Redis GET categories:all - 21ms - MISS","timestamp":"2025-09-22T09:39:00.286Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-22T09:39:04.473Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-22T09:39:04.474Z"}
+{"level":"info","message":"Redis GET auctions:all - 7ms - MISS","timestamp":"2025-09-22T11:47:35.176Z"}
+{"level":"info","message":"Redis GET auctions:all - 13ms - MISS","timestamp":"2025-09-23T03:41:42.849Z"}
+{"level":"info","message":"Redis GET categories:all - 16ms - MISS","timestamp":"2025-09-23T03:41:42.852Z"}
+{"level":"info","message":"Redis GET auctions:all - 16ms - HIT","timestamp":"2025-09-23T03:41:53.950Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T03:41:53.955Z"}
+{"level":"info","message":"Redis GET auctions:all - 35ms - HIT","timestamp":"2025-09-23T03:45:24.860Z"}
+{"level":"info","message":"Redis GET categories:all - 23ms - HIT","timestamp":"2025-09-23T03:45:24.860Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T03:45:24.861Z"}
+{"level":"info","message":"Redis GET auctions:all - 33ms - MISS","timestamp":"2025-09-23T09:21:05.651Z"}
+{"level":"info","message":"Redis GET categories:all - 26ms - MISS","timestamp":"2025-09-23T09:21:05.662Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-23T09:22:10.463Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T09:22:10.464Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-23T09:22:52.378Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T09:22:52.380Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-23T09:22:53.955Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T09:22:53.956Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-23T09:22:57.476Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T09:22:57.479Z"}
+{"level":"info","message":"Redis GET auctions:all - 4ms - HIT","timestamp":"2025-09-23T09:22:59.608Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T09:22:59.609Z"}
+{"level":"info","message":"Redis GET categories:all - 23ms - MISS","timestamp":"2025-09-23T10:51:14.908Z"}
+{"level":"info","message":"Redis GET auctions:all - 25ms - MISS","timestamp":"2025-09-23T10:51:14.930Z"}
+{"level":"info","message":"Redis GET auctions:all - 8ms - HIT","timestamp":"2025-09-23T10:51:17.416Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-23T10:51:17.417Z"}
+{"level":"info","message":"Redis GET categories:all - 20ms - HIT","timestamp":"2025-09-23T10:51:17.435Z"}
+{"level":"info","message":"Redis GET auctions:all - 18ms - MISS","timestamp":"2025-09-24T03:47:10.101Z"}
+{"level":"info","message":"Redis GET categories:all - 72ms - MISS","timestamp":"2025-09-24T03:47:10.162Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 3ms - MISS","timestamp":"2025-09-24T04:10:51.787Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T04:10:53.712Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T04:10:55.121Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T04:10:56.189Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T04:10:57.220Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 1ms - HIT","timestamp":"2025-09-24T04:10:58.310Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 1ms - HIT","timestamp":"2025-09-24T04:10:59.190Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 1ms - HIT","timestamp":"2025-09-24T04:11:00.184Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T04:11:01.957Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 3ms - HIT","timestamp":"2025-09-24T04:18:56.215Z"}
+{"level":"info","message":"Redis GET categories:all - 1ms - HIT","timestamp":"2025-09-24T04:19:17.876Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - HIT","timestamp":"2025-09-24T04:20:00.928Z"}
+{"level":"info","message":"✅ Serving from cache","timestamp":"2025-09-24T04:20:00.929Z"}
+{"level":"info","message":"Redis GET auctions:all - 3ms - MISS","timestamp":"2025-09-24T05:00:58.754Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T05:01:06.780Z"}
+{"level":"info","message":"✅ Auction cache cleared successfully.","timestamp":"2025-09-24T05:18:38.685Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - MISS","timestamp":"2025-09-24T05:24:21.466Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T05:24:24.753Z"}
+{"level":"info","message":"✅ Auction cache cleared successfully.","timestamp":"2025-09-24T05:25:14.700Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T05:25:47.281Z"}
+{"level":"info","message":"✅ Auction cache cleared successfully.","timestamp":"2025-09-24T05:29:42.577Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T05:29:50.124Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T05:32:26.461Z"}
+{"level":"info","message":"✅ Auction cache cleared successfully.","timestamp":"2025-09-24T05:32:32.495Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 1ms - MISS","timestamp":"2025-09-24T05:32:36.465Z"}
+{"level":"info","message":"Redis GET auction:0355f846-43b0-418a-a207-7e348d68f7e5 - 2ms - HIT","timestamp":"2025-09-24T05:32:50.172Z"}

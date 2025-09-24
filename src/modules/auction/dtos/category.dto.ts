@@ -1,4 +1,4 @@
-import { CategoryResponseDTO } from "../auction.types";
+import { CategoryResponseDTO } from "../types/featuredAuction.types";
 
 export class CategoryDTO {
   static toResponse(category: any): CategoryResponseDTO {

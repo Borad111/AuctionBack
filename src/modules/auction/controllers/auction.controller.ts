@@ -1,10 +1,20 @@
 import { Request, Response, NextFunction } from "express";
-import { AuctionService } from "./auction.service";
-import { UtilsService } from "../../utils/utils.service";
-import { AuctionDTO } from "./dtos/auction.dto";
-import { CategoryDTO } from "./dtos/category.dto";
+import { AuctionService } from "../services/auction.service";
+import { UtilsService } from "../../../utils/utils.service";
+import { FeaturedAuctionDTO } from "../dtos/featuredAuction.dto";
+import { CategoryDTO } from "../dtos/category.dto";
+import { AuctionItem } from "../../../models/auctionItem.model";
+import { User } from "../../../models/user.model";
+import { Category } from "../../../models/category.model";
+import { AuctionImage } from "../../../models/auctionImg.model";
+import { Bid } from "../../../models/bid.model";
+import { AuctionDTO } from "../dtos/auction.dto";
+import { AuctionParams, AuctionResponseDTO } from "../types/auction.types";
+import { ApiResponse } from "../../../types/api.types";
 
 export class AuctionController {
+  // to be implemented            
+  
   static async getAllAuctions(
     _req: Request,
     res: Response,
@@ -16,7 +26,7 @@ export class AuctionController {
         res,
         {
           message: "Get All Auctions Sucessfully",
-          auctions: AuctionDTO.toResponseList(auctions),
+          auctions: FeaturedAuctionDTO.toResponseList(auctions),
         },
         200
       );
@@ -77,4 +87,22 @@ export class AuctionController {
       next(error);
     }
   }
+
+  static async getAuctionDetails(req: Request<AuctionParams>, res: Response<ApiResponse<AuctionResponseDTO>>, next: NextFunction) {
+    try {
+      const auction = await AuctionService.getAuctionDetails(req.params.id);
+
+      UtilsService.sendSuccess(
+        res,
+        {
+          message: "Auction details fetched successfully",
+          auction: AuctionDTO.toResponse(auction),
+        },
+        200
+      );
+    } catch (err) {
+      next(err);
+    }
+  }
+
 }

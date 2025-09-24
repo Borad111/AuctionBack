@@ -1,6 +1,6 @@
 import request from "supertest";
 import app from "../../../../app";
-import { AuctionService } from "../../auction.service";
+import { AuctionService } from "../../services/auction.service";
 
 // Mock AuctionService
 jest.mock("../../auction.service");

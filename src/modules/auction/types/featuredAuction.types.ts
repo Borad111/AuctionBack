@@ -1,5 +1,5 @@
 // dtos/auction.dto.ts
-export interface AuctionResponseDTO {
+export interface FeaturedAuctionResponseDTO {
   id: string;
   title: string;
   description: string;
@@ -31,4 +31,21 @@ export interface CategoryResponseDTO {
   name: string;
   icon: string | null;
   auctionCount: number; // har category me auction count
+}
+
+// types/auction.types.ts
+export interface AuctionResponseDTO {
+  id: string;
+  title: string;
+  description: string;
+  startingPrice: number;
+  reservePrice: number;
+  currentBid: number;
+  status: string;
+  startTime: Date;
+  endTime: Date;
+  seller: { id: string; name: string; email: string } | null;
+  category: { id: string; name: string } | null;
+  images: { id: string; url: string }[];
+  bids: { id: string; amount: number; bidder: { id: string; name: string } }[];
 }

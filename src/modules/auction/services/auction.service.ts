@@ -1,16 +1,19 @@
-import { UtilsService } from "../../utils/utils.service";
-import { AuctionItem } from "../../models/auctionItem.model";
-import { AuctionImage } from "../../models/auctionImg.model";
-import logger from "../../utils/logger";
-import { RedisService } from "../../utils/redis.service";
-import { CacheKeys } from "../../config/cacheKeys";
-import { CacheTTL } from "../../config/cacheTTL";
-import { Category } from "../../models/category.model";
-import sequelize from "../../config/database";
+import { UtilsService } from "../../../utils/utils.service";
+import { AuctionItem } from "../../../models/auctionItem.model";
+import { AuctionImage } from "../../../models/auctionImg.model";
+import logger from "../../../utils/logger";
+import { RedisService } from "../../../utils/redis.service";
+import { CacheKeys } from "../../../config/cacheKeys";
+import { CacheTTL } from "../../../config/cacheTTL";
+import { Category } from "../../../models/category.model";
+import sequelize from "../../../config/database";
+import { User } from "../../../models/user.model";
+import { Bid } from "../../../models/bid.model";
+import { AuctionWithBids } from "../types/auction.types";
 export class AuctionService {
   static async clearAuctionCache(): Promise<void> {
     try {
-      await RedisService.clearPattern("auctions:*"); // sirf auctions:all clear hoga
+      await RedisService.clearPattern("auction:*"); // sirf auctions:all clear hoga
       logger.info("✅ Auction cache cleared successfully.");
     } catch (error) {
       logger.error("❌ Failed to clear auction cache:", error);
@@ -111,5 +114,49 @@ export class AuctionService {
       }
       return categories;
     }
+  }
+  static async getAuctionDetails(id: string) {
+    const cacheKey = CacheKeys.AUCTION_BY_ID(id);
+    try {
+      const cached = await RedisService.get(cacheKey);
+      if (cached) return cached;
+    } catch (err) {
+      logger.warn("⚠️ Redis unavailable:", err);
+    }
+
+    const [err, auction ] = await UtilsService.to(
+      AuctionItem.findOne({
+        where: { id },
+        include: [
+          { model: User, as: "seller", attributes: ["id", "name", "email"] },
+          { model: Category, as: "category", attributes: ["id", "name"] },
+          { model: AuctionImage, as: "images", attributes: ["id", "imageUrl"] },
+          {
+            model: Bid,
+            as: "bids",
+            include: [{ model: User, as: "bidder", attributes: ["id", "name"] }],
+          },
+        ],
+      }) as Promise<AuctionWithBids | null>
+    );
+
+    if (err) UtilsService.throwError("Failed to fetch auction details", 500);
+    if (!auction) UtilsService.throwError("Auction not found", 404);
+
+    // ✅ calculate current bid
+      const currentBid =
+        auction.bids.length > 0
+          ? Math.max(...auction.bids.map((b) => b.amount))
+          : auction.startingPrice;
+
+    const result = { ...auction.toJSON(), currentBid };
+
+    try {
+      await RedisService.set(cacheKey, result, CacheTTL.ONE_HOUR);
+    } catch (error) {
+      logger.warn("⚠️ Redis set failed:", error);
+    }
+
+    return result;
   }
 }
