@@ -140,8 +140,8 @@ export class AuctionService {
       }) as Promise<AuctionWithBids | null>
     );
 
-    if (err) UtilsService.throwError("Failed to fetch auction details", 500);
     if (!auction) UtilsService.throwError("Auction not found", 404);
+    if (err) UtilsService.throwError("Failed to fetch auction details", 500);
 
     // ✅ calculate current bid
       const currentBid =

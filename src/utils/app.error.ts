@@ -18,6 +18,14 @@ export class ValidationError extends AppError {
   }
 }
 
+export class NotFoundError extends AppError {
+  constructor(message: string) {
+    super(message, 404);
+    this.name = "NotFoundError";
+  }
+}
+
+
 export class AuthenticationError extends AppError {
   constructor(message: string = 'Authentication failed') {
     super(message, 401);

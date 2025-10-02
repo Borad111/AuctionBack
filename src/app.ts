@@ -101,18 +101,19 @@ import { sentryUserContext } from "./middlewares/sentryUser.middleware";
   /* --------------------  ERROR HANDLING  -------------------- */
   app.use(Sentry.Handlers.errorHandler() as ErrorRequestHandler);
 
-  app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
-    const status = err.status || 500;
-    const message = err.message || "Internal Server Error";
+app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+  const status = err.statusCode || err.status || 500;
+  const message = err.message || "Internal Server Error";
 
-    if (env.NODE_ENV !== "production") {
-      console.error(err);
-      return res.status(status).json({ success: false, message, stack: err.stack });
-    }
+  if (env.NODE_ENV !== "production") {
+    console.error(err);
+    return res.status(status).json({ success: false, message, stack: err.stack });
+  }
 
-    return res.status(status).json({ success: false, message });
-  });
+  return res.status(status).json({ success: false, message });
+});
 
+  
   /* --------------------  PROCESS-LEVEL SAFETY NET  -------------------- */
   process.on("unhandledRejection", (reason) => {
     Sentry.captureException(reason);

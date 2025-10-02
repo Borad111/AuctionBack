@@ -1,5 +1,5 @@
 import { Response } from "express";
-import { AppError, DuplicateError, InternalError, ValidationError } from "./app.error";
+import { AppError, DuplicateError, InternalError, NotFoundError, ValidationError } from "./app.error";
 import logger from "./logger"; // Import logger
 
 export class UtilsService {
@@ -21,6 +21,8 @@ export class UtilsService {
         throw new DuplicateError(message);
       case 500:
         throw new InternalError(message);
+      case 404:
+      throw new NotFoundError(message);  
       default:
         throw new AppError(message, statusCode);
     }
