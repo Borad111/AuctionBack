@@ -11,7 +11,7 @@
   import env from "./config/env";
   import AuthRouter from "./modules/auth/auth.routes";
   import AuctionRouter from "./modules/auction/auction.route";
-import { sentryUserContext } from "./middlewares/sentryUser.middleware";
+  import { sentryUserContext } from "./middlewares/sentryUser.middleware";
 
   dotenv.config();
 
@@ -57,7 +57,7 @@ import { sentryUserContext } from "./middlewares/sentryUser.middleware";
 
   /* --------------------  PERFORMANCE  -------------------- */
   app.use(compression());
-
+  
   /* --------------------  CORS  -------------------- */
   app.use(
     cors({
